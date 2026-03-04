@@ -13,8 +13,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
-  transition: 0.2s ease;
+ 
 }
 
 
@@ -199,7 +198,7 @@ color: var(--black-color);
 /*! home start */
 .home {
   min-height: 100vh;
-  background: url(../imagine/home.jpg) no-repeat;
+  background: url(../images/home.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   margin-top: -14.5rem;
@@ -232,7 +231,6 @@ color: var(--black-color);
   padding: 3rem;
   background-color: #fff;
   border-radius: 3rem;
-  background-color: #fff;
   min-height: 60rem;
   display: flex;
   flex-direction: column;
@@ -474,21 +472,31 @@ color: var(--black-color);
 .blogs .box-container .box {
   background-color: #fff;
   border-radius: 3rem;
+  transition: 0.3s ease;
 }
 .blogs .box-container .box .image {
   overflow: hidden;
   width: 100%;
+  height: 25rem;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
+  
 }
 .blogs .box-container .box .image img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  width: 100%;
+  display: block;
+  transition: 0.3s ease;
 }
 .blogs .box-container .box:hover .image img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
+.blogs .box-container .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
 .blogs .box-container .box .content {
   padding: 2rem;
 }
@@ -506,6 +514,9 @@ color: var(--black-color);
   line-height: 1.8;
   color: #ccc;
   padding: 1rem 0;
+}
+.blogs .box-container .box .content .title:hover {
+  color: var(--main-color);
 }
 /*! blog end */
 
