@@ -5,9 +5,11 @@ The project demonstrates modern layout structure, responsive design, and interac
 
 ---
 
+
 ## 🌍 Live Demo
 
-👉 **[View Live Website](https://nailaazeri-svg.github.io/hungry-house-website/)**
+🔗 **[Visit the Website](https://nailaazeri-svg.github.io/hungry-house-website/)**
+
 
 ---
 
