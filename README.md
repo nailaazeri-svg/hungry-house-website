@@ -4,12 +4,10 @@ A fully responsive **multi-page restaurant website** built with **HTML, CSS, and
 The project demonstrates modern layout structure, responsive design, and interactive UI components.
 
 ---
-
-
 ## 🌍 Live Demo
 
-🔗 **[Visit the Website](https://nailaazeri-svg.github.io/hungry-house-website/)**
-
+🚀 **Live Website:**  
+🔗 [Visit the Website](https://nailaazeri-svg.github.io/hungry-house-website/)
 
 ---
 
